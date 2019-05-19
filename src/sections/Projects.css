@@ -1,0 +1,59 @@
+.project-container {
+  height: 100%;
+  background: #00a7e1;
+  color: white;
+}
+
+.project__main-title {
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+}
+
+.project__title {
+  color: #143642;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.project__description {
+  padding: 0 2.7rem 2rem;
+}
+
+.project__image {
+  max-width: 80%;
+  margin: auto;
+  padding: 0 0 3rem;
+}
+
+
+@media only screen and (min-width:770px) {
+  .project__card {
+    display: flex;
+    padding: 0 10rem;
+  }
+
+  .project__card__wrapper {
+    flex: 1 1 50rem;
+  }
+
+  .project__title {
+    color: #143642;
+    text-align: initial;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+  }
+
+  .project__description {
+    padding: 0 0 2rem 0;
+  }
+
+  .button__container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  button {
+    width: 7rem;
+  }
+}

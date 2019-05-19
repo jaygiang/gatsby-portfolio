@@ -1,0 +1,114 @@
+.aboutme-container {
+  background: #00a7e1;
+  height: 100%;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.about-me__title {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.image__container {
+  width: 20rem;
+  margin: auto;
+}
+
+.description__container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__body {
+  width: 350px;
+  height: 350px;
+  background: white;
+  padding: 2rem 2rem;
+  margin: 0.7rem 0;
+  color: black;
+}
+
+.card__title {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.skills__card {
+  display: flex;
+  justify-content: center;
+}
+
+.skills__container {
+  list-style-type: none;
+  margin-left: 0;
+  width: 200px;
+}
+
+.skill__items {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  color: #c4941d;
+}
+
+.learn__items {
+  display: flex;
+  padding-left: 2rem;
+}
+
+.chalkboard__container {
+  padding-right: 0.5rem;
+}
+
+.chalkboard {
+  color: #c4941d;
+}
+
+@media only screen and (min-width: 770px) {
+  .aboutme__subcontainer {
+    width: 55rem;
+    margin: auto;
+  }
+
+  .aboutme__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem 4rem;
+  }
+
+  .image__container {
+    flex: 1 1;
+    padding: 0 1rem 0 0;
+  }
+
+  .description__container {
+    flex: 1 1;
+    padding: 0 0 0 1rem;
+  }
+
+  .card__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card__body:nth-child(1) {
+    margin-left: 2rem;
+  }
+
+  .card__body:nth-child(2) {
+    margin: 0 2rem;
+  }
+
+  .card__body:nth-child(3) {
+    margin-right: 2rem;
+  }
+}
