@@ -634,9 +634,9 @@ pre tt:after {
     font-size: 3vw;
   }
 
-  .gatsby-image-wrapper {
+  /* .gatsby-image-wrapper {
     flex: 1 1 85rem;
-  }
+  } */
 }
 
 a {

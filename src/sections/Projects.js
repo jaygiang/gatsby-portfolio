@@ -18,7 +18,9 @@ const Projects = ({ projectData }) => {
                   <a href={project.githubUrl} target="_blank"><button>Github</button></a>
                 </div>
             </div>
+            <div className="project-image-wrapper">
               <Image fluid={project.image.asset.fluid} />
+            </div>
           </div>
         );
       })}

@@ -48,7 +48,9 @@ class Experience extends React.Component {
             })}
           </div>
           <div className="selected-experience">
-            <Image fluid={selectedExperience.node.image.asset.fluid} />
+            <div className="selected-experience-image-wrapper">
+              <Image fluid={selectedExperience.node.image.asset.fluid} />
+            </div>
             <div className="selected-experience__description">
               <div className="description-title">{selectedExperience.node.title}</div>
               <ul>
