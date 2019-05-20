@@ -14,7 +14,13 @@ const AboutMe = ({ aboutData }) => {
           <div className="image__container">
             <Image fluid={about.image.asset.fluid} />
           </div>
-          <div className="description__container">{about.description}</div>
+          <div className="description__container">
+          {about.description.map((paragraph, index) => {
+            return (
+              <div key={index} className="description__paragraph">{paragraph}</div>
+            )
+          })}
+          </div>
         </div>
         <div className="card__container">
           <div className="card__body">

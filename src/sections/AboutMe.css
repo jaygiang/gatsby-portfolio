@@ -2,7 +2,6 @@
   background: #edf5e1;
   height: 100%;
   color: #05386b;
-  font-weight: bold;
   padding-bottom: 8rem;
 }
 
@@ -15,6 +14,11 @@
   display: flex;
   justify-content: center;
   padding: 2rem 2rem;
+  flex-direction: column;
+}
+
+.description__paragraph {
+  padding: 1rem 0;
 }
 
 .card__container {
@@ -98,6 +102,7 @@
   .description__container {
     flex: 1 1;
     padding: 0 0 0 1rem;
+
   }
 
   .card__container {
