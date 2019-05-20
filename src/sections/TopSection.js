@@ -43,7 +43,7 @@ const TopSection = () => {
         </span>
       </div>
       <LinkForScroll to="about-me" smooth duration={150} offset={-50} className="scroll-down">
-        <img src={arrowSVG} className="scroll-down__arrow" />
+        <img src={arrowSVG} className="scroll-down__arrow" alt="arrow-down"/>
       </LinkForScroll>
     </div>
   );

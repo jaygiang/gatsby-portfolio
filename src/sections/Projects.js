@@ -14,10 +14,10 @@ const Projects = ({ projectData }) => {
                 <div className="project__title">{project.title}</div>
                 <div className="project__description">{project.description}</div>
                 <div className="project-button__container">
-                  <a href={project.liveDemoUrl} target="_blank" className="project-button__wrapper">
+                  <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer" className="project-button__wrapper">
                     <button className="project-button">Live Demo</button>
                   </a>
-                  <a href={project.githubUrl} target="_blank"  className="project-button__wrapper">
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-button__wrapper">
                     <button className="project-button">Github</button>
                   </a>
                 </div>

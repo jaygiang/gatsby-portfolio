@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 
 import './header.css';
 

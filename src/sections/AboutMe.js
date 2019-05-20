@@ -12,7 +12,7 @@ const AboutMe = ({ aboutData }) => {
       <div className="aboutme__subcontainer">
         <div className="aboutme__wrapper">
           <div className="image__container">
-            <Image fluid={about.image.asset.fluid} />
+            <Image fluid={about.image.asset.fluid} alt="profile picture" />
           </div>
           <div className="description__container">
           {about.description.map((paragraph, index) => {
@@ -127,7 +127,7 @@ const AboutMe = ({ aboutData }) => {
                     <span className="star">
                       <FontAwesomeIcon icon={['fas', 'star']} />
                     </span>
-                    <span className="star">
+                    <span className="star-translucent">
                       <FontAwesomeIcon icon={['fas', 'star']} />
                     </span>
                   </div>
@@ -161,12 +161,26 @@ const AboutMe = ({ aboutData }) => {
                   </div>
                 </li>
                 <li className="skill__items">
-                  <div className="skill__name">AWS</div>
+                  <div className="skill__name">Knex/Bookshelf</div>
                   <div className="star__container">
                     <span className="star">
                       <FontAwesomeIcon icon={['fas', 'star']} />
                     </span>
                     <span className="star">
+                      <FontAwesomeIcon icon={['fas', 'star']} />
+                    </span>
+                    <span className="star-translucent">
+                      <FontAwesomeIcon icon={['fas', 'star']} />
+                    </span>
+                  </div>
+                </li>
+                <li className="skill__items">
+                  <div className="skill__name">AWS</div>
+                  <div className="star__container">
+                    <span className="star">
+                      <FontAwesomeIcon icon={['fas', 'star']} />
+                    </span>
+                    <span className="star-translucent">
                       <FontAwesomeIcon icon={['fas', 'star']} />
                     </span>
                     <span className="star-translucent">
@@ -176,20 +190,6 @@ const AboutMe = ({ aboutData }) => {
                 </li>
                 <li className="skill__items">
                   <div className="skill__name">Docker</div>
-                  <div className="star__container">
-                    <span className="star">
-                      <FontAwesomeIcon icon={['fas', 'star']} />
-                    </span>
-                    <span className="star-translucent">
-                      <FontAwesomeIcon icon={['fas', 'star']} />
-                    </span>
-                    <span className="star-translucent">
-                      <FontAwesomeIcon icon={['fas', 'star']} />
-                    </span>
-                  </div>
-                </li>
-                <li className="skill__items">
-                  <div className="skill__name">GraphQL</div>
                   <div className="star__container">
                     <span className="star">
                       <FontAwesomeIcon icon={['fas', 'star']} />

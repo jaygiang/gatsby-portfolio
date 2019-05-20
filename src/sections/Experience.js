@@ -3,16 +3,11 @@ import Image from 'gatsby-image';
 
 import './Experience.css';
 
-const selectedColor = {
-  color: 'green'
-};
-
 class Experience extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedIndex: 0,
-      selectedColor: 'green'
+      selectedIndex: 0
     };
 
     this.selectExperience = this.selectExperience.bind(this);
@@ -26,7 +21,7 @@ class Experience extends React.Component {
 
   render() {
     const { experienceData } = this.props;
-    const { selectedIndex, selectedColor } = this.state;
+    const { selectedIndex } = this.state;
     let selectedExperience = experienceData[selectedIndex];
 
     return (

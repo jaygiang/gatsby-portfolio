@@ -78,7 +78,7 @@ const IndexPage = ({ data }) => {
   const { edges: projectData } = data.allSanityProject;
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Jay Giang" keywords={[`gatsby`, `application`, `react`]} />
       <Topsection />
       <AboutMe aboutData={aboutData} />
       <Experience experienceData={experienceData} />
