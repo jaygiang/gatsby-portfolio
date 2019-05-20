@@ -1,30 +1,56 @@
 .experience__container{
   height: 100%;
   width: 100%;
+  padding-bottom: 8rem;
 }
 
 .experience-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin:auto;
 }
 
 .experience__card {
-  flex: 1 0 30px;
+  flex: 0 0 50%;
 }
 
 .experience__title {
-  color: #143642;
   text-align: center;
   padding-bottom: 1rem;
-  font-size: 13px;
+  font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
+  color: #05386b;
+}
+
+.experience__title:hover {
+  color: #edf5e1;
+}
+
+.description-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-bottom: 1.5rem;
+  color: #edf5e1;
+  text-align: center;
+}
+
+.selected-experience__description {
+  color: #05386b;
+  font-weight: bold;
+}
+
+.selected-experience-image-wrapper {
+  padding: 3rem 2rem;
 }
 
 .selected-experience__description {
   padding: 0 2.7rem 2rem;
 }
 
-@media only screen and (min-width:770px) {
+@media only screen and (min-width: 1025px) {
 
   .experience__card {
     flex: 0 0 0;
@@ -36,7 +62,7 @@
 
   .selected-experience {
     display: flex;
-    padding: 0 2rem 4rem;
+    padding: 0 8rem;
   }
 
   .experience__title {
@@ -46,18 +72,17 @@
   }
 
   .description-title {
-    font-size: 2rem;
-    font-weight: bold;
-    padding-bottom: 1.5rem;
+    text-align: left;
+    font-size: 2.5rem;
   }
 
   .selected-experience-image-wrapper {
-    flex: 1 1 85rem;
+    flex: 1 1 60%;
+    padding-right: 2rem;
   }
 
   .selected-experience__description {
-    flex: 1 1 50rem;
-    padding: 0 2rem 0;
+    flex: 1 1 40%;
   }
 
   .description-bullet-points {

@@ -27,9 +27,9 @@ const TopSection = () => {
             translateZ={0}
             duration={2000}
             color={(el, i, t) => {
-              const r = 196 + i * 12;
-              const g = 148 + i * 12;
-              const b = 29;
+              const r = 5 + i * 12;
+              const g = 56 + i * 12;
+              const b = 107;
               const color = `rgb(${r}, ${g}, ${b})`;
               return color;
             }}
@@ -37,9 +37,9 @@ const TopSection = () => {
               return 100 * i;
             }}
           >
-            <span className="text-wrapper__letters">{splitLetter('ALOHA!')}</span>
+            <span className="text-wrapper__letters">{splitLetter('HELLO!')}</span>
           </Anime>
-          <span className="text-wrapper__name">My name is Jay.</span>
+          <span className="text-wrapper__name">My name is <span className="name">Jay</span>. </span>
         </span>
       </div>
       <LinkForScroll to="about-me" smooth duration={150} offset={-50} className="scroll-down">

@@ -625,21 +625,22 @@ pre tt:after {
 .section-title {
   font-size: 2rem;
   font-weight: bold;
-  padding: 5rem 0 2rem 0;
+  padding: 5rem 0;
   text-align: center;
+  color: #05386b;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 1025px) {
   .section-title {
     font-size: 3vw;
   }
-
-  /* .gatsby-image-wrapper {
-    flex: 1 1 85rem;
-  } */
 }
 
 a {
-  color: #c4941d !important;
+  color: #05386b !important;
   cursor: pointer;
+}
+
+.main {
+  background:  #5cdb95;
 }

@@ -1,13 +1,9 @@
 .aboutme-container {
-  background: #00a7e1;
+  background: #edf5e1;
   height: 100%;
-  color: white;
-  padding-bottom: 3rem;
-}
-
-.about-me__title {
-  padding-top: 2rem;
-  text-align: center;
+  color: #05386b;
+  font-weight: bold;
+  padding-bottom: 8rem;
 }
 
 .image__container {
@@ -30,10 +26,19 @@
 .card__body {
   width: 350px;
   height: 350px;
-  background: white;
+  background: #5cdb95;
   padding: 2rem 2rem;
   margin: 0.7rem 0;
-  color: black;
+  color: #edf5e1;
+}
+
+.card__title {
+  color: #05386b;
+  font-weight: bolder;
+}
+
+.skill__name {
+  color: #05386b;
 }
 
 .card__title {
@@ -57,7 +62,7 @@
   justify-content: space-between;
 }
 .star {
-  color: #c4941d;
+  color: #05386b;
 }
 
 .learn__items {
@@ -70,10 +75,10 @@
 }
 
 .chalkboard {
-  color: #c4941d;
+  color: #edf5e1;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 1026px) {
   .aboutme__subcontainer {
     width: 55rem;
     margin: auto;

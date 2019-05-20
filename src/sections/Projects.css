@@ -1,7 +1,8 @@
 .project-container {
   height: 100%;
-  background: #00a7e1;
-  color: white;
+  background: #edf5e1;
+  color: #05386b;
+  padding-bottom: 8rem;
 }
 
 .project__main-title {
@@ -10,7 +11,7 @@
 }
 
 .project__title {
-  color: #143642;
+  color: #05386b;
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -25,8 +26,28 @@
   padding: 0 0 3rem;
 }
 
+.project-button__container {
+  text-align: center;
+}
 
-@media only screen and (min-width:770px) {
+.project-button__wrapper {
+  padding: 0 1rem;
+}
+
+.project-button {
+  background: #05386b;
+  color: #edf5e1;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.project-button:hover {
+  background: #5cdb95;
+  color: #05386b;
+}
+
+
+@media only screen and (min-width: 1025px) {
   .project__card {
     display: flex;
     padding: 0 10rem;
@@ -37,7 +58,6 @@
   }
 
   .project__title {
-    color: #143642;
     text-align: initial;
     font-size: 2rem;
     font-weight: bold;

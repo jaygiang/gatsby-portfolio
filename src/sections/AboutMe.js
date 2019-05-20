@@ -238,7 +238,7 @@ const AboutMe = ({ aboutData }) => {
                       <FontAwesomeIcon icon={['fas', 'chalkboard']} />
                     </span>
                   </div>
-                  <div className="skill__name">Material UI</div>
+                  <div className="skill__name">Ruby</div>
                 </li>
               </ul>
             </div>

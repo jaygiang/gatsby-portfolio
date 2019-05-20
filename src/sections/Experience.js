@@ -40,7 +40,7 @@ class Experience extends React.Component {
                   <div className="experience__title"  onClick={() => this.selectExperience(index)}>
                     { index !== selectedIndex ?
                       <span>{experience.title}</span> :
-                      <span style={{color: 'green'}}>{experience.title}</span>
+                      <span style={{color: '#edf5e1'}}>{experience.title}</span>
                     }
                   </div>
                 </div>
