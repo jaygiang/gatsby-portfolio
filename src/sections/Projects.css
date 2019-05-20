@@ -26,8 +26,13 @@
   padding: 0 0 3rem;
 }
 
+.project-image-wrapper {
+  padding: 0 2rem;
+}
+
 .project-button__container {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .project-button__wrapper {
