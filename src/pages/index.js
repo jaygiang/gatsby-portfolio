@@ -83,7 +83,7 @@ const IndexPage = ({ data }) => {
       <Helmet>
         <meta property="og:site_name" content="Jay Giang Portfolio"/>
         <meta property="og:image" content="https://i.imgur.com/ALD6Gkm.png"/>
-        <meta property="og:url" content="https://jaygiang.dev/"></meta>
+        <meta property="og:url" content="https://jaygiang.dev/"/>
       </Helmet>
       <Topsection />
       <AboutMe aboutData={aboutData} />
