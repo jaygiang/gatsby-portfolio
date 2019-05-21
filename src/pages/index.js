@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { Helmet } from  'react-helmet';
 import Topsection from '../sections/TopSection';
 import AboutMe from '../sections/AboutMe';
 import Experience from '../sections/Experience';
@@ -79,6 +80,11 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Jay Giang" keywords={[`gatsby`, `application`, `react`]} />
+      <Helmet>
+        <meta property="og:site_name" content="Jay Giang Portfolio"/>
+        <meta property="og:image" content="https://i.imgur.com/ALD6Gkm.png"/>
+        <meta property="og:url" content="https://jaygiang.dev/"></meta>
+      </Helmet>
       <Topsection />
       <AboutMe aboutData={aboutData} />
       <Experience experienceData={experienceData} />
