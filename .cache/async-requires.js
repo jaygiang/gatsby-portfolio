@@ -9,5 +9,3 @@ exports.components = {
   "component---src-pages-page-2-js": () => import("/Users/jay/Jay/portfolio-gatsby/src/pages/page-2.js" /* webpackChunkName: "component---src-pages-page-2-js" */)
 }
 
-exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/jay/Jay/portfolio-gatsby/.cache/data.json")
-
